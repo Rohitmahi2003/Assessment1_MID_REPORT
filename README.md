@@ -71,7 +71,7 @@ streamlit run app.py
 ```
 Your browser will open the dashboard at http://localhost:8501.
 
-📂 Project Structure
+# 📂 Project Structure
 
 ```bash
 MID_report/
@@ -83,7 +83,6 @@ MID_report/
 ├── requirements.txt        # List of Python dependencies
 ├── README.md               # Project documentation
 └── images/                 # Screenshots of dashboard
-
     ├── output1.png
     ├── output2.png
     ├── output3.png
