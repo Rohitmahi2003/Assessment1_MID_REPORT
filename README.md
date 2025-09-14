@@ -72,29 +72,23 @@ streamlit run app.py
 Your browser will open the dashboard at http://localhost:8501.
 
 📂 Project Structure
-bash
-Copy code
+
+```bash
 MID_report/
 ├── app.py                  # Main Streamlit dashboard script
-
 ├── business.csv            # Daily business performance data
-
 ├── Facebook.csv            # Facebook campaign data
-
 ├── Google.csv              # Google campaign data
-
 ├── TikTok.csv              # TikTok campaign data
-
 ├── requirements.txt        # List of Python dependencies
-
 ├── README.md               # Project documentation
-
 └── images/                 # Screenshots of dashboard
 
     ├── output1.png
     ├── output2.png
     ├── output3.png
     └── output4.png
+```
 💡 Notes
 Keep the env/ folder local. It is excluded from GitHub via .gitignore.
 
