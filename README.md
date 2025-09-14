@@ -55,20 +55,18 @@ git clone https://github.com/Rohitmahi2003/Assessment1_MID_REPORT.git
 Navigate to the project directory:
 ```
 ```bash
-Copy code
+
 cd MID_report
 ```
 Install the required libraries:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 Running the Application
 Once dependencies are installed, run the Streamlit dashboard:
 
 ```bash
-Copy code
 streamlit run app.py
 ```
 Your browser will open the dashboard at http://localhost:8501.
@@ -78,13 +76,21 @@ bash
 Copy code
 MID_report/
 ├── app.py                  # Main Streamlit dashboard script
+
 ├── business.csv            # Daily business performance data
+
 ├── Facebook.csv            # Facebook campaign data
+
 ├── Google.csv              # Google campaign data
+
 ├── TikTok.csv              # TikTok campaign data
+
 ├── requirements.txt        # List of Python dependencies
+
 ├── README.md               # Project documentation
+
 └── images/                 # Screenshots of dashboard
+
     ├── output1.png
     ├── output2.png
     ├── output3.png
